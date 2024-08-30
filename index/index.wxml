@@ -1,0 +1,22 @@
+<!-- 元素WXML对照组 -->
+<view class="commodity">
+    <image src="https://luokun.oss-cn-hangzhou.aliyuncs.com/github/wxml-to-canvas/bg.png" mode="scaleToFill" class="bg" />
+    <view class="commodity-title">
+        <text class="title1">近7天</text>
+        <text class="title2">超低价</text>
+    </view>
+    <view class="commodity-info">
+        <image src="https://luokun.oss-cn-hangzhou.aliyuncs.com/github/wxml-to-canvas/commodity.png" class="image" />
+        <view class="price-info">
+            <view>
+                <text class="price-y">¥</text>
+                <text class="price">13.99</text>
+            </view>
+            <view class="btn">
+                <text class="btn-txt">立即购买</text>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 不要放在wx:if内，永远保证一直存在 -->
+<share-canvas id="shareCanvas"></share-canvas>

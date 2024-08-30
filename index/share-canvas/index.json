@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wxml-to-canvas": "wxml-to-canvas"
+  }
+}

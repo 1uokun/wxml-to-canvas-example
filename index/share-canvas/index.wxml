@@ -1,0 +1,5 @@
+<view class="hidden">
+  <wxml-to-canvas class="canvas-widget" />
+  <text class="y">¥</text>
+  <text class="num">{{commodity.price}}</text>
+</view>

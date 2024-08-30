@@ -1,0 +1,16 @@
+.hidden {
+  position: absolute;
+  position: fixed;
+  transform: translateX(-200%);
+  z-index: -1;
+}
+
+/* 字体大小影响宽度，所以必须要同 stlye1.js内值 */
+.y {
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.num {
+  font-size: 40rpx;
+  font-weight: bold;
+}

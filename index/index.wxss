@@ -1,0 +1,96 @@
+.commodity {
+    width: 520rpx;
+    height: 416rpx;
+    position: relative;
+    margin:0 auto;
+}
+
+.bg {
+    width: 520rpx;
+    height: 416rpx;
+    position: absolute;
+    border-radius: 12rpx;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.commodity-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 490rpx;
+    height: 72rpx;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+    justify-content: center;
+}
+
+.title1 {
+    color: #000000;
+    font-size: 42rpx;
+    font-weight: bold;
+}
+
+.title2 {
+    color: #FD5155;
+    font-size: 42rpx;
+    font-weight: bold;
+}
+
+.commodity-info {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12rpx;
+    margin-left: 15rpx;
+    width: 490rpx;
+    height: 299rpx; /* 416-102-15 */
+}
+
+.image {
+    border-radius: 12rpx;
+    margin-left: 8rpx;
+    width: 283rpx;
+    height: 283rpx;
+}
+
+.price-info {
+    margin-left: 30rpx;
+    height: 150rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 199rpx;
+}
+
+.price-y {
+    color: #FD5155;
+    font-size: 24rpx;
+    font-weight: bold;
+}
+
+.price {
+    color: #FD5155;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+.btn {
+    width: 152rpx;
+    height: 48rpx;
+    background-color: #FD5155;
+    border-radius: 24rpx;
+    text-align: center;
+}
+
+.btn-txt {
+    height: 48rpx;
+    line-height: 48rpx;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24rpx;
+    font-weight: bold;
+}
