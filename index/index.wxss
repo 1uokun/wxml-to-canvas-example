@@ -20,7 +20,7 @@
     flex-direction: row;
     align-items: center;
 
-    width: 490rpx;
+    width: 520rpx;
     height: 72rpx;
     margin-top: 15rpx;
     margin-bottom: 15rpx;

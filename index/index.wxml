@@ -1,3 +1,4 @@
+<view style="text-align:right;">右上角“三个点”⬆️点击分享</view>
 <!-- 元素WXML对照组 -->
 <view class="commodity">
     <image src="https://luokun.oss-cn-hangzhou.aliyuncs.com/github/wxml-to-canvas/bg.png" mode="scaleToFill" class="bg" />
@@ -18,5 +19,5 @@
         </view>
     </view>
 </view>
-<!-- 不要放在wx:if内，永远保证一直存在 -->
+<!-- 不要放在wx:if内，永远保证一直被渲染 -->
 <share-canvas id="shareCanvas"></share-canvas>
