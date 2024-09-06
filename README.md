@@ -10,6 +10,8 @@
 
 ## 前言
 
+1. `<text></text>`必须要有height属性，width属性不是必须了 [Pull Request: https://github.com/1uokun/wxml-to-canvas/pull/1]
+
 ### 与 wxss 存在的差异
 
 view默认弹性布局（flex），但是：
